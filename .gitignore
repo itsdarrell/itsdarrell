@@ -1,1 +1,6 @@
 .DS_Store
+
+# Local notes and tooling; README.md is the only markdown that ships
+*.md
+!README.md
+gen_assets.py
