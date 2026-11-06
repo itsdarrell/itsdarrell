@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+  <!-- (c) 2026 Darrell Lee, github.com/itsdarrell. All rights reserved. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0e14"/>
+      <stop offset="100%" stop-color="#12151f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1c2130"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0.5" y="0.5" width="899" height="259" rx="16" fill="url(#bg)" stroke="#1f2433"/>
+  <rect x="0.5" y="0.5" width="899" height="259" rx="16" fill="url(#dots)"/>
+
+  <!-- Left: name and title -->
+  <g>
+    <text x="48" y="112" font-size="46" font-weight="700" fill="url(#accent)" letter-spacing="-1">Darrell Lee</text>
+    <rect x="50" y="128" width="0" height="3" rx="1.5" fill="url(#accent)">
+      <animate attributeName="width" from="0" to="120" begin="0.2s" dur="0.9s" fill="freeze"/>
+    </rect>
+    <text x="48" y="164" font-size="20" font-weight="600" fill="#e6e8ef">Cloud &amp; AI Solutions Architect</text>
+    <text x="48" y="192" font-size="14" fill="#8b93a7">Building on AWS  ·  Singapore</text>
+  </g>
+
+  <!-- Right: status pill, an HTTP 200 since everything is healthy; right edge stays aligned with the diagram -->
+  <g>
+    <rect x="772" y="40" width="88" height="26" rx="13" fill="#12151f" stroke="#2a3042"/>
+    <circle cx="789" cy="53" r="4" fill="#5eead4"/>
+    <circle cx="789" cy="53" r="4" fill="none" stroke="#5eead4">
+      <animate attributeName="r" values="4;9;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="802" y="57.5" font-size="12" font-weight="600" fill="#c7cbd6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">200 OK</text>
+  </g>
+
+  <!-- Right: how I work, business need, technology and constraints into an architecture, shipped to production -->
+  <g fill="none" stroke="#2a3042" stroke-width="1.5">
+    <path d="M592,95 C616,95 616,152 640,152"/>
+    <path d="M592,152 L640,152"/>
+    <path d="M592,209 C616,209 616,152 640,152"/>
+    <path d="M744,152 L768,152"/>
+  </g>
+
+  <g font-size="12.5" font-weight="600" text-anchor="middle">
+    <rect x="484" y="78" width="108" height="34" rx="9" fill="#12151f" stroke="#5eead4" stroke-opacity="0.6"/>
+    <text x="538" y="99.5" fill="#5eead4">business need</text>
+
+    <rect x="484" y="135" width="108" height="34" rx="9" fill="#12151f" stroke="#5eead4" stroke-opacity="0.6"/>
+    <text x="538" y="156.5" fill="#5eead4">technology</text>
+
+    <rect x="484" y="192" width="108" height="34" rx="9" fill="#12151f" stroke="#5eead4" stroke-opacity="0.6"/>
+    <text x="538" y="213.5" fill="#5eead4">constraints</text>
+
+    <rect x="640" y="135" width="104" height="34" rx="9" fill="#12151f" stroke="url(#accent)"/>
+    <text x="692" y="156.5" fill="#e6e8ef">architecture</text>
+
+    <rect x="768" y="135" width="92" height="34" rx="9" fill="#12151f" stroke="#a78bfa" stroke-opacity="0.7"/>
+    <text x="814" y="156.5" fill="#a78bfa">production</text>
+  </g>
+
+  <!-- Packets -->
+  <circle r="3.5" fill="#5eead4">
+    <animateMotion dur="2.4s" repeatCount="indefinite" path="M592,95 C616,95 616,152 640,152"/>
+  </circle>
+  <circle r="3.5" fill="#5eead4">
+    <animateMotion dur="2.4s" begin="0.8s" repeatCount="indefinite" path="M592,152 L640,152"/>
+  </circle>
+  <circle r="3.5" fill="#5eead4">
+    <animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite" path="M592,209 C616,209 616,152 640,152"/>
+  </circle>
+  <circle r="3.5" fill="#a78bfa">
+    <animateMotion dur="1s" begin="0.6s" repeatCount="indefinite" path="M744,152 L768,152"/>
+  </circle>
+</svg>

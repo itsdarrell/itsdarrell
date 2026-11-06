@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="259" viewBox="0 0 900 259" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+  <!-- (c) 2026 Darrell Lee, github.com/itsdarrell. All rights reserved. -->
+  <defs><linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#6d28d9"/></linearGradient></defs>
+  <text x="0" y="30" font-size="38" font-weight="800" fill="url(#accent)" letter-spacing="-1">01</text>
+  <text x="0" y="68" font-size="22" font-weight="700" fill="#1f2328">Discover</text>
+  <text x="0" y="92" font-size="15" font-weight="600" fill="#6d28d9">Presales</text>
+  <text x="0" y="122" font-size="17" fill="#24292f">
+    <tspan x="0" dy="0">Start with the business</tspan>
+    <tspan x="0" dy="26">problem, the constraints</tspan>
+    <tspan x="0" dy="26">and who signs off.</tspan>
+    <tspan x="0" dy="26">Requirements first,</tspan>
+    <tspan x="0" dy="26">services second.</tspan>
+  </text>
+  <text x="324" y="30" font-size="38" font-weight="800" fill="url(#accent)" letter-spacing="-1">02</text>
+  <text x="324" y="68" font-size="22" font-weight="700" fill="#1f2328">Design</text>
+  <text x="324" y="92" font-size="15" font-weight="600" fill="#6d28d9">Architecture</text>
+  <text x="324" y="122" font-size="17" fill="#24292f">
+    <tspan x="324" dy="0">Turn requirements into an</tspan>
+    <tspan x="324" dy="26">architecture that balances</tspan>
+    <tspan x="324" dy="26">cost, security and</tspan>
+    <tspan x="324" dy="26">reliability, and that both</tspan>
+    <tspan x="324" dy="26">engineers and executives</tspan>
+    <tspan x="324" dy="26">can follow.</tspan>
+  </text>
+  <line x1="300.5" y1="2" x2="300.5" y2="257" stroke="#d0d7de"/>
+  <text x="624" y="30" font-size="38" font-weight="800" fill="url(#accent)" letter-spacing="-1">03</text>
+  <text x="624" y="68" font-size="22" font-weight="700" fill="#1f2328">Deliver</text>
+  <text x="624" y="92" font-size="15" font-weight="600" fill="#6d28d9">Build</text>
+  <text x="624" y="122" font-size="17" fill="#24292f">
+    <tspan x="624" dy="0">Plan the rollout,</tspan>
+    <tspan x="624" dy="26">manage the risks and</tspan>
+    <tspan x="624" dy="26">hand over something</tspan>
+    <tspan x="624" dy="26">operations can run.</tspan>
+  </text>
+  <line x1="600.5" y1="2" x2="600.5" y2="257" stroke="#d0d7de"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="92" viewBox="0 0 900 92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+  <!-- (c) 2026 Darrell Lee, github.com/itsdarrell. All rights reserved. -->
+  <circle cx="5" cy="9" r="5" fill="#FF9900"/>
+  <text x="20" y="14" font-size="16" font-weight="600" fill="#e6e8ef">Solutions Architect Associate</text>
+  <text x="20" y="34" font-size="13" fill="#8b93a7">AWS</text>
+  <circle cx="305" cy="9" r="5" fill="#FF9900"/>
+  <text x="320" y="14" font-size="16" font-weight="600" fill="#e6e8ef">AI Practitioner</text>
+  <text x="320" y="34" font-size="13" fill="#8b93a7">AWS</text>
+  <circle cx="605" cy="9" r="5" fill="#FF9900"/>
+  <text x="620" y="14" font-size="16" font-weight="600" fill="#e6e8ef">Cloud Practitioner</text>
+  <text x="620" y="34" font-size="13" fill="#8b93a7">AWS</text>
+  <circle cx="5" cy="63" r="5" fill="#0078D4"/>
+  <text x="20" y="68" font-size="16" font-weight="600" fill="#e6e8ef">Azure Fundamentals (AZ-900)</text>
+  <text x="20" y="88" font-size="13" fill="#8b93a7">Microsoft</text>
+  <circle cx="305" cy="63" r="5" fill="#8b5cf6"/>
+  <text x="320" y="68" font-size="16" font-weight="600" fill="#e6e8ef">ITIL 4 Foundation</text>
+  <text x="320" y="88" font-size="13" fill="#8b93a7">IT service management</text>
+</svg>
